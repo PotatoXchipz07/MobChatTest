@@ -39,21 +39,21 @@ struct ChatView: View {
                         .foregroundStyle(.white)
                     Spacer()
                     
-                    NavigationLink(destination: AnalyticView()) {
-                        Text("Crash!")
-                            .font(.system(size: 20))
-                            .foregroundStyle(.red)
-                    }
+//                    NavigationLink(destination: AnalyticView()) {
+//                        Text("Crash!")
+//                            .font(.system(size: 20))
+//                            .foregroundStyle(.red)
+//                    }
 //                    NavigationLink(destination: AnalyticView()) {
 //                        Text("Analytic!")
 //                            .font(.system(size: 20))
 //                            .foregroundStyle(.red)
 //                    }
-//                    Button(action: {
-//                        viewModal.signOut()
-//                    }, label: {
-//                        Image(systemName: "rectangle.portrait.and.arrow.right.fill")
-//                    })
+                    Button(action: {
+                        viewModal.signOut()
+                    }, label: {
+                        Image(systemName: "rectangle.portrait.and.arrow.right.fill")
+                    })
                     
                     NavigationLink {
                         ProfileView()
