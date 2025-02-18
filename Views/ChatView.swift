@@ -39,11 +39,11 @@ struct ChatView: View {
                         .foregroundStyle(.white)
                     Spacer()
                     
-//                    NavigationLink(destination: AnalyticView()) {
-//                        Text("Crash!")
-//                            .font(.system(size: 20))
-//                            .foregroundStyle(.red)
-//                    }
+                    NavigationLink(destination: AnalyticView()) {
+                        Text("Crash!")
+                            .font(.system(size: 20))
+                            .foregroundStyle(.red)
+                    }
 //                    NavigationLink(destination: AnalyticView()) {
 //                        Text("Analytic!")
 //                            .font(.system(size: 20))
