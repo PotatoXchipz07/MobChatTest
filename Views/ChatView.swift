@@ -44,7 +44,6 @@ struct ChatView: View {
                         Image(systemName: "rectangle.portrait.and.arrow.right.fill")
                     })
 
-
                     NavigationLink(destination: CrashView()) {
                         Text("Crash!")
                             .font(.system(size: 20))
@@ -55,6 +54,8 @@ struct ChatView: View {
                             .font(.system(size: 20))
                             .foregroundStyle(.blue)
                     }
+                    
+
 //                    Button(action: {
 //                        viewModal.signOut()
 //                    }, label: {
