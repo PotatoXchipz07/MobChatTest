@@ -45,16 +45,6 @@ struct ChatView: View {
                     })
 
 
-                    NavigationLink(destination: CrashView()) {
-                        Text("Crash!")
-                            .font(.system(size: 20))
-                            .foregroundStyle(.blue)
-                    }
-                    NavigationLink(destination: AnalyticView()) {
-                        Text("Analytic!")
-                            .font(.system(size: 20))
-                            .foregroundStyle(.blue)
-                    }
 //                    Button(action: {
 //                        viewModal.signOut()
 //                    }, label: {
