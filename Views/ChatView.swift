@@ -38,13 +38,13 @@ struct ChatView: View {
                         .font(.custom("Montserrat-Bold", size: 32))
                         .foregroundStyle(.white)
                     Spacer()
-                    
-//                    NavigationLink(destination: AnalyticView()) {
-//                        Text("Crash!")
-//                            .font(.system(size: 20))
-//                            .foregroundStyle(.red)
-//                    }
-                    //Analytic Branch
+//                    Crash Branch gitHub Other branch
+                    NavigationLink(destination: AnalyticView()) {
+                        Text("Crash!")
+                            .font(.system(size: 20))
+                            .foregroundStyle(.red)
+                    }
+
                     NavigationLink(destination: AnalyticView()) {
                         Text("Analytic!")
                             .font(.system(size: 20))
