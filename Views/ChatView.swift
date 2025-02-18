@@ -48,7 +48,7 @@ struct ChatView: View {
                     NavigationLink(destination: AnalyticView()) {
                         Text("Analytic!")
                             .font(.system(size: 20))
-                            .foregroundStyle(.red)
+                            .foregroundStyle(.blue)
                     }
 //                    Button(action: {
 //                        viewModal.signOut()
